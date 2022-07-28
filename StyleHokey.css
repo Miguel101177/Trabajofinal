@@ -159,3 +159,11 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 padding: 10px;
 }
+
+.Gototop{
+    color: aliceblue;
+ border-style: outset;
+ background-color: rgb(91, 30, 184);
+ border-radius: 5px;
+ cursor: pointer;
+}
