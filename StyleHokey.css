@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+    
+}
+
+/* Set height of body and the document to 100% */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+html {
+    /* background-image: url(http://2.bp.blogspot.com/_8rS-c2bSyfc/SwrPCXn007I/AAAAAAAAAFI/d_jXPm_TGrI/s1600/ESTADIODODRAGAO.jpg); */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header {
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+
+}
+
+header h1 {
+    padding-left: 50px;
+    color: yellow;
+    font-family: Georgia;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    width: 70vw;
+    left: 10vw;
+}
+
+main {
+    height: auto;
+}
+
+nav {
+    height: 48px;
+    background-color: #555;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+
+
+.dropbtn {
+    background-color: #bacfbb;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#dropdown {
+    position: absolute;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 48px;
+    background-color: rgba(255, 166, 0, 0.567);
+    min-width: 160px;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: orange
+}
+
+#dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+#boton {
+    background: none;
+    cursor: pointer;
+}
+#actividad, #practicas, #Equipo{
+
+    color: white;
+    text-align: center;
+    background: #bacfbb;
+}
+article{
+color: white;
+    padding: 50px;
+    border-style: solid;
+    border-color: #3e8e41;
+    border-radius: 10px;
+    margin: 5px;
+}
+#horarios{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+#Staff{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+padding: 10px;
+}

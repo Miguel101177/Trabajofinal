@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Style.css">
+    <!--  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script> -->
+
+
+</head>
+
+<body>
+    <header style="background-color:rgba(240, 238, 233, 0.518)">
+        <Img src="escudos-de-futbol-para-editar.jpg" width="100" height="100"></Img>
+        <h1>Club Atletico</h1>
+        <br>
+    </header>
+<div id="mymain">
+    <main>
+
+        <!-- background-image: url(https://www.thialan.com/img/polideportivo-madrid.jpg) -->
+        <button class="tablink" onclick="openPage('Home', this, 'black')" id="defaultOpen">Home</button>
+        <button class="tablink" onclick="openPage('News', this, 'green')">News</button>
+        <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+        <button class="tablink" onclick="openPage('About', this, 'orange')" id="dropdown">Actividades
+            <div class="dropdown-content">
+                <a href="Futbol2.html">Futbol</a>
+                <a href="Hokey2.html">Hokey</a>
+                <a href="Voley2.html">Voley</a>
+            </div>
+        </button>
+
+
+
+
+        <div id="contenido">
+            <div id="Home" class="tabcontent">
+                <h3>Misión, Visión y Valores</h3><br><br>
+                <h4>Visión</h4>
+                <p>El club Atletico se encarga de Encausar, Organizar y Fiscalizar las actividades deportivas y
+                    administrativas de la institución para el desarrollo excelente de la actividad y para que los
+                    deportistas, entrenadores y dirigentes se abracen a los valores del movimiento olímpico -Excelencia,
+                    Amistad y Respeto-. Y así, representar al club, en búsqueda de logros en el deporte: juegos locales,
+                    regionales, provinciales, nacionales e internacionales, como también en la vida.
+                    Generar una gestión innovadora, de excelencia que sirva de ejemplo para el resto de las
+                    organizaciones
+                    deportivas provinciales.</p><br>
+                <h4>Misión</h4>
+                <p>Mantener la identidad del club Estudiantes como organización referente deportiva e institucional.
+                    Generar
+                    un sentido de pertenencia y orgullo para los socios y deportistas.</p> <br>
+                <h4>Valores</h4>
+                <ul>
+                    <li>
+                        <h4>Respeto: </h4>
+                        <p>Tratar a todos con dignidad, sobre la base de la colaboración y confianza.</p>
+                    </li>
+                    <li>
+                        <h4>Credibilidad:</h4>
+                        <p>Actuar con la dignidad de ser coherente entre lo que se piensa y lo que se hace.</p>
+                    </li>
+                    <li>
+                        <h4>Educación</h4>
+                        <p>Influimos positivamente en todo lo que hacemos y decimos, siendo ejemplos de valores dentro y
+                            fuera del campo de juego (Liderazgo).</p>
+                    </li>
+                    <li>
+                        <h4>Compromiso:</h4>
+                        <p>entrenamos y jugamos con la misma intensidad desde el rol que a cada uno le toque.</p>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div id="News" class="tabcontent">
+                <div id="contenedor">
+                    <article>
+
+                        <h3>Atletico aplastó a Argentino de Trenque Lauquen</h3>
+                        <p>El Celeste se impuso frente al conjunto bonaerense en el arranque del campeonato UROBA de
+                            rugby.
+                        </p>
+                        <img src="WhatsApp_Image.jpeg" alt="Foto equipo" height="200px" width="300px">
+                        <p> Atletico recibió a Argentino en el polideportivo Victor Arriaga, por la primera fecha del
+                            certamen de la
+                            Unión de Rugby del Oeste de Buenos Aires, y se quedó con el triunfo por 25-0.</P><br><br>
+                    </article>
+                    <article>
+                        <h3>Tres victorias en el arranque del provincial</h3>
+                        <img src="primera_fecha_2022.jpg" alt="Foto equipo" height="200px" width="300px">
+                        <p>Atletico comenzó su participación en el Torneo Provincial 2022 de basquet y se quedó con tres
+                            victorias tras su visita a Juventud UNda de Alpachiri.</p>
+                    </article>
+                    <article>
+                        <h3>Las leonas en el Atletico</h3>
+                        <img src="Leonas.jpg" alt="Leonas" height="200px" width="300px">
+                        <p>Las jugadoras del seleccionado argentino de hockey, Piti D´elia y Maca Rodríguez, realizarán
+                            una
+                            clínica el próximo sábado en el polideportivo Víctor Arriaga del Club Estudiantes.
+                        </p>
+                    </article>
+                </div>
+
+
+
+            </div>
+
+            <div id="Contact" class="tabcontent">
+                <h3>Si sos socio puedes logearte para acceder a mas información</h3>
+
+                <h2>Login</h2>
+                <form id="Login">
+                    <label for="Nombre">Nombre</label><br>
+                    <input type="text" name="Nombre"><br>
+                    <label for="Apellido">Apellido</label><br>
+                    <input type="text" name="Apellido"><br>
+                    <label for="password">Contraseña</label><br>
+                    <input type="password" name="pass"><br><br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" name="Cancelar">
+                </form>
+                <br>
+                <br>
+                <br>
+                <h2>Consultas</h2>
+                <br>
+                <menu type="toolbar"></menu>
+                <form>
+                    <label for="Nombre">Nombre</label><br>
+                    <input type="text" name="Nombre"><br><br>
+                    <label for="Apellido">Apellido</label><br>
+                    <input type="text" name="Apellido"><br><br>
+                    <label for="Correo">Correo</label><br>
+                    <input type="email" name="Correo"><br><br>
+                    Socio <input class="radio" type="radio" name="Socio"><br>
+                    No Socio <input class="radio" type="radio" name="Socio"><br>
+                    Becado <input class="radio" type="radio" name="Socio"><br><br>
+                    Actividad:
+                    <select name="Actividad" id="Actividad">
+                        <option value="Fut">Futbol</option>
+                        <option value="Vol">Voley</option>
+                        <option value="Hok">Hokey</option>
+                    </select><br><br>
+                    Dejar un comentario <br>
+                    <textarea cols="30" rows="10"></textarea><br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" name="Cancelar">
+                    <br><br><br><br>
+
+                </form><br><br><br><br>
+            </div>
+
+            <div id="About" class="tabcontent">
+                <h3>El fin de la educación deportiva</h3><br><br>
+                <p>El deporte debe ser utilizado como un medio seguro, sano y socializador, dónde los deportistas
+                    aprendan a
+                    convivir en grupo, respetar normas, llevar una disciplina en materia de: horarios, asistencia a los
+                    entrenamientos, comportamiento, reglas de juegos, así como comunicarse de forma eficaz y asertiva
+                    con
+                    sus iguales y comprender que el interés colectivo está por encima del individual. Algo tan
+                    naturalmente
+                    presente en las primeras edades formativas…</p><br>
+                <p>En nuestros años de experiencia, y desde nuestra humilde opinión, los valores y la educación
+                    deportiva
+                    junto con el desarrollo de las cualidades volitivas, deben estar por encima de cualquier otra
+                    prioridad.
+                </p><br>
+                <p>De no ser así, cuándo muchos de los jugadores/as lleguen a la edad de 10-11 años, siendo en esta
+                    edad, en
+                    muchas ocasiones, la primera toma de contacto en deportes colectivos, su interacción para adquirir
+                    un
+                    rol dentro del equipo, se verá amenazado.</p><br><br>
+                <h3>Valores en el deporte</h3><br><br>
+                <p>Los valores más importantes que debemos inculcar, son aquellos que no sólo deben formar parte del
+                    deporte
+                    en particular, sino de la vida en general. Quizás, la tarea más ardua para con los jugadores, está
+                    precisamente, en hacerles entender que no se trata simplemente de practicar y aprender un deporte,
+                    sino
+                    de todos aquellos compañeros que hacen posible la practica del mismo.</p>
+            </div>
+
+
+
+            <script>
+                function openPage(pageName, elmnt, color) {
+                    var i, tabcontent, tablinks;
+                    tabcontent = document.getElementsByClassName("tabcontent");
+                    for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                    }
+                    tablinks = document.getElementsByClassName("tablink");
+                    for (i = 0; i < tablinks.length; i++) {
+                        tablinks[i].style.backgroundColor = "";
+                    }
+                    document.getElementById(pageName).style.display = "block";
+                    elmnt.style.backgroundColor = color;
+                }
+
+                // Get the element with id="defaultOpen" and click on it
+                document.getElementById("defaultOpen").click();
+            </script>
+        </div>
+    </main>
+
+    <aside>
+        <center>
+            <h1>Nuestros partidos</h1><br>
+            <iframe width="300" height="300" src="https://www.youtube.com/embed/QwdNmBKg2sg"
+                title="Así clasificó Costa Rica para su sexto Mundial de fútbol | Noticias Telemundo" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <br>
+    
+            <iframe width="300" height="300" src="https://www.youtube.com/embed/Yp7hc68Oc3Q"
+                title="5 Años y Medio Torneo de Fútbol Primer Partido" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <br>
+    
+            <iframe width="300" height="300" src="https://www.youtube.com/embed/HmqolAMowKM" title="partido volley"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </center>
+    </aside>
+</div>
+    <footer>
+        <h5>© Copyright 2000 - 2022</h5>
+        <h5>Todos los derechos reservados </h5>
+        <p>Miguel Angel Sánchez</p>
+
+        <h5> Registro de Propiedad Intelectual: Expediente</h5>
+
+    </footer>
+</body>
+
+</html>
